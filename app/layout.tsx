@@ -16,13 +16,27 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default: 'A Square Trade - Advanced Trading Platform',
-    template: '%s | A² Trade',
+    template: 'A Square Trade',
   },
   description: 'A Square Trade - Professional trading platform with real-time charts, advanced indicators, and multi-market support for Crypto, Stocks, and Forex.',
-  keywords: ['trading', 'crypto', 'stocks', 'forex', 'charts', 'technical analysis', 'indicators', 'trading platform'],
-  authors: [{ name: 'A² Trade' }],
-  creator: 'A² Trade',
-  publisher: 'A² Trade',
+  
+  // Naye Keywords yaha add kiye hain
+  keywords: [
+    'trading', 'crypto', 'stocks', 'forex', 'charts', 'technical analysis', 
+    'indicators', 'trading platform', 'A Square Trade', 'A2 Trade', 
+    'real-time trading', 'market analysis', 'Ashish developer', 'trading software'
+  ],
+  
+  authors: [{ name: 'Ashish' }],
+  creator: 'Ashish',
+  publisher: 'Ashish',
+
+  verification: {
+    google: 'google-site-verification-id', 
+  },
+
+  category: 'finance', 
+
   robots: {
     index: true,
     follow: true,
@@ -34,10 +48,11 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://a2trade.com',
+    url: 'https://a-square-trades.vercel.app',
     siteName: 'A Square Trade',
     title: 'A² Trade - Advanced Trading Platform',
     description: 'Professional trading platform with real-time charts, advanced indicators, and multi-market support.',
@@ -50,6 +65,7 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
     title: 'A² Trade - Advanced Trading Platform',
@@ -57,6 +73,7 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
     creator: '@a2trade',
   },
+
   icons: {
     icon: '/logo.ico',
     shortcut: '/logo.ico',
@@ -64,7 +81,6 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
 };
-
 export const viewport: Viewport = {
   themeColor: '#0b0f19',
   width: 'device-width',

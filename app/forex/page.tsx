@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Forex Trading | A² Trade',
     description: 'Trade forex currency pairs with advanced analysis tools.',
-    url: 'https://a2trade.com/forex',
+    url: 'https://a-square-trades.vercel.app/forex',
   },
   twitter: {
     title: 'Forex Trading | A² Trade',
     description: 'Trade forex currency pairs with advanced analysis tools.',
   },
   alternates: {
-    canonical: 'https://a2trade.com/forex',
+    canonical: 'https://a-square-trades.vercel.app/forex',
   },
 };
 

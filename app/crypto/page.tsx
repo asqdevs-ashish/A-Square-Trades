@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cryptocurrency Trading | A² Trade',
     description: 'Trade cryptocurrencies with advanced charting tools and real-time data.',
-    url: 'https://a2trade.com/crypto',
+    url: 'https://a-square-trades.vercel.app/crypto',
   },
   twitter: {
     title: 'Cryptocurrency Trading | A² Trade',
     description: 'Trade cryptocurrencies with advanced charting tools and real-time data.',
   },
   alternates: {
-    canonical: 'https://a2trade.com/crypto',
+    canonical: 'https://a-square-trades.vercel.app/crypto',
   },
 };
 

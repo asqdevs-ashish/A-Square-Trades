@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://a2trade.com/sitemap.xml
+Sitemap: https://a-square-trades.vercel.app/sitemap.xml
 
 # Disallow admin and api routes
 Disallow: /api/

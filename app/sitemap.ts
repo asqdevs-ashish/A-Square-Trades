@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://a2trade.com';
+  const baseUrl = 'https://a-square-trades.vercel.app';
   
   return [
     {
@@ -48,3 +48,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 }
+
