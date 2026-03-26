@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   
   // Naye Keywords yaha add kiye hain
   keywords: [
-    'trading', 'crypto', 'stocks', 'forex', 'charts', 'technical analysis', 
+    'trading', 'crypto', 'stocks', 'forex', 'charts', 'a square traders', 
     'indicators', 'trading platform', 'A Square Trade', 'A2 Trade', 
-    'real-time trading', 'market analysis', 'Ashish developer', 'trading software'
+    'real-time trading', 'market analysis', 'Ashish developer','a square trade', 'A square trade',  'trading software'
   ],
   
   authors: [{ name: 'Ashish' }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   publisher: 'Ashish',
 
   verification: {
-    google: 'google-site-verification-id', 
+    google: 'G-D1K1WLHJRS',
   },
 
   category: 'finance', 
@@ -81,6 +81,7 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
 };
+
 export const viewport: Viewport = {
   themeColor: '#0b0f19',
   width: 'device-width',
@@ -103,3 +104,4 @@ export default function RootLayout({
     </html>
   );
 }
+
