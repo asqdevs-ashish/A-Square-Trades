@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://a2trade.com/sitemap.xml
+
+# Disallow admin and api routes
+Disallow: /api/

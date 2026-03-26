@@ -1,0 +1,16 @@
+{
+  "name": "A² Trade - Advanced Trading Platform",
+  "short_name": "A² Trade",
+  "description": "Professional trading platform with real-time charts, advanced indicators, and multi-market support.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#00d4ff",
+  "icons": [
+    {
+      "src": "/logo.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
