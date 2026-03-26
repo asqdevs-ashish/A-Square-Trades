@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   },
   description: 'A Square Trade - Professional trading platform with real-time charts, advanced indicators, and multi-market support for Crypto, Stocks, and Forex.',
   
-  // Naye Keywords yaha add kiye hain
   keywords: [
     'trading', 'crypto', 'stocks', 'forex', 'charts', 'a square traders', 
     'indicators', 'trading platform', 'A Square Trade', 'A2 Trade', 
